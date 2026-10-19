@@ -1,0 +1,8 @@
+a,b=map(float,input().split())
+int_a=int(a)
+frac_a=a-int_a
+int_b=int(b)
+frac_b=b-int_b
+na=int_b+frac_a
+nb=int_a+frac_b
+print(f"{na:.2f},{nb:.2f}")
